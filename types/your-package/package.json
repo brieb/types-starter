@@ -1,0 +1,9 @@
+{
+  "name": "@your-internal-scope/your-package",
+  "version": "1.0.0",
+  "license": "MIT",
+  "files": ["index.d.ts"],
+  "scripts": {
+    "test": "dtslint ."
+  }
+}
