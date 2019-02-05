@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "workspaces": [
+    "types/*"
+  ],
+  "scripts": {
+    "prettier": "prettier --write \"types/**/*.{ts,tsx,json}\"",
+    "test": "yarn workspaces run test"
+  },
+  "devDependencies": {
+    "dtslint": "github:Microsoft/dtslint#production",
+    "prettier": "^1.14.3",
+    "typescript": "^3.3.1"
+  }
+}
